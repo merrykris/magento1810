@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
+
+	<cms_index_index translate="label">
+		<label>CMS Home Page</label>
+		<reference name="content">
+			<block type="core/template" name="test.block" template="blocks/home.phtml" />
+		</reference>
+	</cms_index_index>
 	
 	<customer_logged_out>
 		<remove name="wishlist_link" />
