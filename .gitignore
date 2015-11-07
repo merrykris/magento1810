@@ -1,0 +1,7 @@
+.htaccess.sample
+.modgit/
+.modman/
+app/etc/local.xml
+app/.htaccess
+sitemap.xml
+var/
