@@ -14,6 +14,7 @@
 			<block type="core/template" name="test.block" template="blocks/home.phtml" />
 			<block type="core/template" name="test.block2" template="blocks/home2.phtml" />
 			<block type="core/template" name="test.block3" template="blocks/home3.phtml" />
+			<block type="core/template" name="test.block4" template="blocks/home4.phtml" />
 		</reference>
 	</cms_index_index>
 	
