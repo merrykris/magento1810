@@ -33,7 +33,7 @@
     <p><?php echo $this->__('You have no items in your shopping cart.') ?></p>
     <p><?php echo $this->__('Click <a href="%s">here</a> to continue shopping.', $this->getContinueShoppingUrl()) ?></p>
     <?php echo $this->getChildHtml('shopping.cart.table.after'); ?>
-	
+
 	<br/>
 	<p><?php echo $this->__('You can buy these items:') ?></p>
 	<ol>
@@ -41,4 +41,6 @@
 		<li>Product 2</li>
 		<li>Product 3</li>
 	</ol>
+	
+	<?php echo $this->getLayout()->createBlock('core/template')->setTemplate('checkout/cart/info.phtml')->toHtml() ?>
 </div>
