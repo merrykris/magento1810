@@ -5,3 +5,7 @@ app/etc/local.xml
 app/.htaccess
 sitemap.xml
 var/
+var/cache
+var/locks
+var/package
+var/session
