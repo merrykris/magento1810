@@ -4,6 +4,7 @@
 	<default>
 		<reference name="cart_sidebar">
 			<block type="core/template" name="cart.sidebar.info" as="cart_sidebar_info" template="blocks/cart/info.phtml" />		
+			<block type="core/template" name="cart.sidebar.info2" as="cart_sidebar_info2" template="blocks/cart/info2.phtml" />		
 		</reference>
 	</default>
 
